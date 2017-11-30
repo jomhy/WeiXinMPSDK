@@ -73,8 +73,8 @@ namespace Senparc.Weixin.WxOpen.AdvancedAPIs.Template
                 {
                     touser = openId,
                     template_id = templateId,
-                    // topcolor = topcolor,
-                    //page = page,
+                    topcolor = topcolor,
+                    page = page,
                     form_id = formId,
                     data = data,
                     emphasis_keyword = emphasisKeyword,
@@ -140,7 +140,7 @@ namespace Senparc.Weixin.WxOpen.AdvancedAPIs.Template
                 {
                     touser = openId,
                     template_id = templateId,
-                    // topcolor = topcolor,
+                    topcolor = topcolor,
                     page = page,
                     form_id = formId,
                     data = data,
